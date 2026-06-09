@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"/>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>Mahakali Mandir | Divine Peace &amp; Heritage</title>
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-inner">
+       
+        <div class="logo">
+          <span class="logo-icon">🔱</span>
+          <span class="logo-text">Mahakali Mandir</span>
+        </div>
+
+        
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" id="nav_home">Home</a></li>
+          <li><a href="#history" id="nav_history">History</a></li>
+          <li><a href="#events" id="nav_events">Events</a></li>
+          <li><a href="#gallery" id="nav_gallery">Gallery</a></li>
+          <li><a href="#committee" id="nav_committee">Committee</a></li>
+          <li><a href="#donation" id="nav_donation">Donation</a></li>
+
+          <li class="lang-switcher">
+            <button
+              class="lang-btn"
+              id="langBtn"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <span id="currentFlag"></span>
+              <span id="currentLang">EN</span>
+              <span class="arrow">▼</span>
+            </button>
+            <div class="lang-dropdown" id="langDropdown">
+              <div class="lang-option active-lang" data-lang="en">
+                <span class="lang-flag"></span> English
+              </div>
+              <div class="lang-option" data-lang="ne">
+                <span class="lang-flag"></span> नेपाली
+              </div>
+              <div class="lang-option" data-lang="ja">
+                <span class="lang-flag"></span> 日本語
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="section">
+        <div class="hero-wrap">
+       
+          <div>
+            <p class="hero-label" id="hero_label">Welcome to</p>
+            <h1 class="hero-title" id="hero_title">Mahakali Mandir</h1>
+            <div class="hero-line"></div>
+            <p class="hero-desc" id="hero_desc">
+              The temple located at Sunapati–1, Garati is known as a sacred
+              religious site and a center of faith and devotion. Filled with
+              historical and spiritual significance, devotees visit this temple
+              to observe fasts, perform worship rituals, and make vows to
+              express their wishes. There is a tradition of making vows here
+              before departing on domestic or international journeys, praying
+              for safe travel and success.
+            </p>
+            <div class="badges">
+              <div class="badge">
+                <i class="fa-regular fa-clock"></i>
+                <span id="darshan_hours"
+                  >Daily Darshan: 6:00 AM – 4:00 PM</span
+                >
+              </div>
+              <div class="badge">
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="location">Sunapati-1, Ramechhap</span>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="hero-img-box">
+            <img src="images/homeImg.jpg" alt="Mahakali Temple" />
+            <div class="img-overlay" id="img_overlay_home">
+              Mahakali Mandir
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="alt-bg" id="history">
+        <div class="alt-inner">
+          <div class="sec-head">
+            <h2 id="history_title">📜 History</h2>
+            <p id="history_subtitle">A sacred legacy through the ages</p>
+          </div>
+          <div class="history-wrap">
+          
+            <div>
+           
+<div>
+  <p id="history_p1">
+    It is an ancient center of religious faith and devotion. According to local folklore, many years ago an elderly Magar man from the <span>Khulal</span> clan was preparing farmland when his hoe struck the head of a stone resembling a deity. It is believed that a blood-like substance emerged from the stone. Considering this event a divine sign, the local people established the site as a sacred place and began worshipping it as <span>Mahakali Mandir</span>.
+  </p>
+
+  <div class="history-extra" id="historyExtra" aria-hidden="true">
+    <p id="history_p2">
+      At that time, the village was facing a shortage of drinking water. Local belief holds that <span>Padam Bahadur Khulal</span> saw the location of a water source in a dream. When villagers went to the place indicated in the dream, they discovered a spring there. The water source still exists today and is regarded as a sign of the temple's divine power and blessing.
+    </p>
+    <p id="history_p3">
+      After the establishment of the temple, <span>Bhadra Bahadur Asthani</span> was recognized as the first priest. Since then, members of the Asthani clan have continued to serve as the temple's priests, preserving this tradition to the present day.
+    </p>
+    <p id="history_p4">
+      The local community believes that Mahakali Mandir protects the village, relieves suffering, and fulfills devotees' wishes. Before traveling abroad for employment, starting a new venture, or seeking good health and family well-being, devotees visit the temple to offer prayers and make vows. This tradition of worship, prayer, and devotion continues to this day.
+    </p>
+  </div>
+
+  <button class="see-more-btn" id="historyToggleBtn" aria-expanded="false" aria-controls="historyExtra">
+    See More
+  </button>
+</div>
+            </div>
+
+           
+            
+            <div class="hist-img">
+              <img src="images/historyImg.png" alt="Old photo of temple" />
+              <span class="img-caption" id="history_img_caption"
+                >Historical view of the Temple</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="events" class="section">
+        <div class="sec-head">
+          <h2 id="events_title">🪔 Upcoming Events</h2>
+          <p id="events_subtitle">Join us in celebration and devotion</p>
+        </div>
+        <div class="events-grid">
+
+          <div class="event-card">
+            <div class="event-icon">🪔</div>
+            <div class="event-body">
+              <h3 id="event2_name">Chandi Purnima</h3>
+              <p class="event-date">
+                <i class="fa-regular fa-calendar"></i>
+                <span id="event2_date">May 31, 2026</span>
+              </p>
+              <p id="event2_desc">
+                Devotees gather at the temple to worship Goddess Chandi, offer prayers, and seek blessings for peace, prosperity, and protection.
+              </p>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-icon">🕉️</div>
+            <div class="event-body">
+              <h3 id="event3_name">Haribodhini Ekadashi</h3>
+              <p class="event-date">
+                <i class="fa-regular fa-calendar"></i>
+                <span id="event3_date">Nov 20, 2026</span>
+              </p>
+              <p id="event3_desc">
+                Devotees visit the temple, worship Lord Vishnu, offer prayers, and seek blessings for happiness, prosperity, and spiritual well-being.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="event-card">
+            <div class="event-icon">🌕</div>
+            <div class="event-body">
+              <h3 id="event1_name">Mangsir Purnima</h3>
+              <p class="event-date">
+                <i class="fa-regular fa-calendar"></i>
+                <span id="event1_date">Dec 24, 2026</span>
+              </p>
+              <p id="event1_desc">
+                Devotees visit the temple, offer prayers, light lamps, and seek blessings for peace and prosperity.
+              </p>
+            </div>
+          </div>
+
+          
+
+          
+
+          <div class="event-card">
+            <div class="event-icon">🙏</div>
+            <div class="event-body">
+              <h3 id="event4_name">Special Puja</h3>
+              <p class="event-date">
+                <i class="fa-regular fa-calendar"></i>
+                <span id="event4_date">In Morning</span>
+              </p>
+              <p id="event4_desc">
+                Prayer for Well-being,Wish-fullfilling,Problem relief & Vows offering(Bhakal).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="alt-bg" id="gallery">
+        <div class="alt-inner">
+          <div class="sec-head">
+            <h2 id="gallery_title">
+              <i class="fa-regular fa-images"></i> Gallery
+            </h2>
+            <p id="gallery_subtitle">Reconstruction Phase Photos</p>
+          </div>
+          <div class="gallery-grid">
+            <div class="gal-item">
+              <div
+                class="gal-img"
+                style="background-image: url(images/historyImg.png)"
+              ></div>
+              <div class="gal-caption" id="gal1">
+                Before Reconstruction
+              </div>
+            </div>
+
+            <div class="gal-item">
+              <div
+                class="gal-img"
+                style="background-image: url(images/photo2.jpg)"
+              ></div>
+              <div class="gal-caption" id="gal2">Top Roof Slab Work</div>
+            </div>
+
+            <div class="gal-item">
+              <div
+                class="gal-img"
+                style="background-image: url(images/photo3.jpg)"
+              ></div>
+              <div class="gal-caption" id="gal3">
+                Slab Design Completion
+              </div>
+            </div>
+
+            <div class="gal-item">
+              <div
+                class="gal-img"
+                style="background-image: url(images/photo4.jpg)"
+              ></div>
+              <div class="gal-caption" id="gal4">
+                 Completion of Temple
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="committee" class="section">
+        <div class="sec-head">
+          <h2 id="committee_title">
+            🏛️ Temple Reconstruction Committee
+          </h2>
+          <p id="committee_subtitle">
+            Mandir Nirman Samiti — Dedicated members who led the reconstruction
+          </p>
+        </div>
+        <div class="committee-wrap">
+          <div class="table-wrap">
+            <table class="committee-table">
+              <thead>
+                <tr>
+                  <th id="th_sn">S.N.</th>
+                  <th id="th_name">Full Name</th>
+                  <th id="th_position">Position</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Pramod Khulal Magar</td>
+                  <td id="pos_chair">Chairperson</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Sita Kumari Magar</td>
+                  <td id="pos_treasurer">Treasurer</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Pabin Lamichhane Magar</td>
+                  <td id="pos_secretary">Secretary</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Sanu B. Ale Magar</td>
+                  <td id="pos_member">Member</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Pashupati Ale Magar</td>
+                  <td id="pos_member">Member</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Nirmala Thapa Magar</td>
+                  <td id="pos_member">Member</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="donation" class="section">
+        <div class="sec-head">
+          <h2 id="donation_title">🙏 Generous Donors</h2>
+          <p id="donation_subtitle">
+            Kind-hearted devotees who supported the temple's reconstruction
+          </p>
+        </div>
+
+       
+        <div class="donor-block">
+          <h3 class="donor-heading" id="village_donors">
+            🏡 Donors From the Village
+          </h3>
+          <div class="table-wrap">
+            <table class="don-table" id="villageTable">
+              <thead>
+                <tr>
+                  <th id="th_sn">S.N.</th>
+                  <th id="th_name">Name</th>
+                  <th id="th_amount">Amount (Rs.) / Materials</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Milan Asthani Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Kumar Asthani Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Jit B. Asthani Magar</td>
+                  <td>10,525</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Dinesh Lamichhane Magar</td>
+                  <td>16,000</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Bel B. Lamichhane Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Feeroj Lamichhane Magar</td>
+                  <td>15,555</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Megh B. Lamichhane Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Durga B. Lamichhane Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Bishnu B. Lamichhane Magar</td>
+                  <td>20,200</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Tara Magar</td>
+                  <td>20,300</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Krishna B. Khulal Magar</td>
+                  <td>20,310</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>Buddhi B. Khulal Magar</td>
+                  <td>5,000 + Gajur,Bell&amp;Pala</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Kumari Khulal Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Gyan B. Khulal Magar</td>
+                  <td>7,000</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Krishna B. Thapa Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>Minmaya Khulal Magar</td>
+                  <td>5,100</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>Dal B. Asthani Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Bishnu B. Khulal Magar</td>
+                  <td>15,100</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>Paras Lamichhane Magar</td>
+                  <td>7,100</td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>Rakesh Lamichhane Magar</td>
+                  <td>6,200</td>
+                </tr>
+                <tr>
+                  <td>21</td>
+                  <td>Purnamaya Lamichhane Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>22</td>
+                  <td>Prakash Lamichhane Magar</td>
+                  <td>15,515</td>
+                </tr>
+                <tr>
+                  <td>23</td>
+                  <td>Hom Asthani Magar</td>
+                  <td>10,000 + Iron Door</td>
+                </tr>
+                <tr>
+                  <td>24</td>
+                  <td>Gopal Asthani Magar</td>
+                  <td>5,050</td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>Suresh Asthani Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>26</td>
+                  <td>Mithun Thapa Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>27</td>
+                  <td>Krishna B. Ale Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>28</td>
+                  <td>Shiva B. Ale Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>29</td>
+                  <td>Pashupati Ale</td>
+                  <td>10,000</td>
+                </tr>
+                <tr>
+                  <td>30</td>
+                  <td>Rajkumar Ale Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>31</td>
+                  <td>Bharat Pulami Magar</td>
+                  <td>5,100</td>
+                </tr>
+                <tr>
+                  <td>32</td>
+                  <td>Gopal Pulami Magar</td>
+                  <td>9,500</td>
+                </tr>
+                <tr>
+                  <td>33</td>
+                  <td>Sanu B. Ale Magar</td>
+                  <td>15,000</td>
+                </tr>
+                <tr>
+                  <td>34</td>
+                  <td>Rameshwar Khulal Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>35</td>
+                  <td>Narayan B. Ale Magar</td>
+                  <td>5,100</td>
+                </tr>
+                <tr>
+                  <td>36</td>
+                  <td>Sita Gautam</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>37</td>
+                  <td>Surya Prasad Gautam</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>38</td>
+                  <td>Krishna Bahadur Ale (Pipal Bote)</td>
+                  <td>46,500.05</td>
+                </tr>
+                <tr>
+                  <td>39</td>
+                  <td>Bhadra B. Lamichhane Magar</td>
+                  <td>15,000</td>
+                </tr>
+                <tr>
+                  <td>40</td>
+                  <td>Bhim Khulal Magar</td>
+                  <td>10,000</td>
+                </tr>
+                <tr>
+                  <td>41</td>
+                  <td>Resham Lamichhane Magar</td>
+                  <td>5,055</td>
+                </tr>
+                <tr>
+                  <td>42</td>
+                  <td>Govinda Khulal Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>43</td>
+                  <td>Sanika Khulal Magar</td>
+                  <td>1,000</td>
+                </tr>
+                <tr>
+                  <td>44</td>
+                  <td>Community Forest</td>
+                  <td>25,000</td>
+                </tr>
+                <tr>
+                  <td>45</td>
+                  <td>Deepak Gautam</td>
+                  <td>Color (paint)</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+          <button
+            class="see-more-btn"
+            data-table="villageTable"
+            id="see_more"
+          >
+            See More
+          </button>
+        </div>
+
+       
+        <div class="donor-block">
+          <h3 class="donor-heading" id="outside_donors">
+            🌏 Donors From Outside the Village
+          </h3>
+          <div class="table-wrap">
+            <table class="don-table" id="outsideTable">
+              <thead>
+                <tr>
+                  <th id="th_sn">S.N.</th>
+                  <th id="th_name_details">Name / Details</th>
+                  <th id="th_amount">Amount (Rs.) / Materials</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Keshar Lama</td>
+                  <td>1,50,000</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Kanchharam Tamang</td>
+                  <td>51,000</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Bharat Chaulagain</td>
+                  <td>50,000</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Ratna Gautam</td>
+                  <td>50,000</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Dipendra Khadka</td>
+                  <td>20,000</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Bishal Gautam</td>
+                  <td>15,100</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Krishna Gautam</td>
+                  <td>11,111</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>CPN-UML</td>
+                  <td>10,100</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Keshav Gautam</td>
+                  <td>10,000</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Sharswoti Jarga Magar</td>
+                  <td>5,000</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Amrit Bisunke</td>
+                  <td>5,050</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td> Via-Shyam Hari Khulal</td>
+                  <td>4,000</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Madip Gautam</td>
+                  <td>2,500</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Dhruba Prasad Chaulagain</td>
+                  <td>2,000</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Laxmi Jarga Magar</td>
+                  <td>1,000</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>Ganga Maya Jarga Magar</td>
+                  <td>1,000</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>Rina Bangrel Magar</td>
+                  <td>1,000</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Rabina Ale Magar</td>
+                  <td>1,000</td>
+                </td>
+                <tr>
+                  <td>19</td>
+                  <td>Suham Chaulagain</td>
+                  <td>510</td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>Jit Bahadur Majhi</td>
+                  <td>10 sacks of cement</td>
+                </tr>
+                
+                <tr>
+                  <td>21</td>
+                  <td>Kedar Gautam</td>
+                  <td>Gravel</td>
+                </tr>
+                <tr>
+                  <td>22</td>
+                  <td>Rajkumar Chaulagain</td>
+                  <td>Windows &amp; Doors</td>
+                </tr>
+                <tr>
+                  <td>23</td>
+                  <td> Via-Santosh Yasmali</td>
+                  <td>1,000</td>
+                </tr>
+                <tr>
+                  <td>24</td>
+                  <td>Via-Manoj Khulal Magar</td>
+                  <td>1,000</td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>Others</td>
+                  <td>1,380</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <button
+            class="see-more-btn"
+            data-table="outsideTable"
+            id="see_more"
+          >
+            See More
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">🔱 Mahakali Mandir</div>
+      <p class="footer-tagline" id="footer_tagline">
+        Eternal Blessings | Dharma &amp; Devotion
+      </p>
+      <div class="footer-contact">
+        <span>✉️ mahakalimandir01@gmail.com</span>
+        <span>📞 +977-98609812XX</span>
+      </div>
+      <hr class="footer-divider" />
+      <p class="footer-copy" id="footer_copy">
+        © 2026 Mahakali Mandir | Sunapati-1, Ramechhap
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
